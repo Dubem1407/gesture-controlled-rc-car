@@ -28,9 +28,9 @@ receives these commands and drives the motors accordingly through the
 L298N H-bridge motor driver.
 
 ## Wiring Diagram
-*Master Remote*
+- Master Remote
 --
-*Slave Car*
+- Slave Car
 --
 
 
