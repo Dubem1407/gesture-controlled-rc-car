@@ -6,7 +6,7 @@ backward, left, or right drives the car in the corresponding direction
 in real time.
 
 ## Demo
-*Coming soon*
+--
 
 ## Hardware
 
@@ -29,7 +29,10 @@ L298N H-bridge motor driver.
 
 ## Wiring Diagram
 *Master Remote*
+--
 *Slave Car*
+--
+
 
 ## Folder Structure
 gesture-controlled-rc-car/
