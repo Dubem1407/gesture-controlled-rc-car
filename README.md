@@ -36,14 +36,14 @@ L298N H-bridge motor driver.
 
 ## Folder Structure
 gesture-controlled-rc-car/
-|- master_remote/
-    - remote.ino # Gesture reading and BT transmission
-|- slave_car/
-    - car.ino # BT receiving and motor control
-|- docs/
-    - wiring_diagram.png
-|- .gitignore
-|- README.md
+├── docs/
+│   └── wiring_diagram.png
+├── master_remote/
+│   └── remote.ino         # Gesture reading and BT transmission
+├── slave_car/
+│   └── car.ino            # BT receiving and motor control
+├── .gitignore
+└── README.md
 
 
 ## Getting Started
