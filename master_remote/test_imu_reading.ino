@@ -25,7 +25,7 @@ void setup() {
 void loop() {
   IMU.update();
   IMU.getAccel(&accelData);
-  IMU.getGyro(&gyroData);
+  IMU.getGyro(&gyroData);   
 
   // Read and Print IMU readings 
   Serial.print("Accel X: "); Serial.print(accelData.accelX);
