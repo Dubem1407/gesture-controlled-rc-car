@@ -10,6 +10,7 @@ int speedA = 230; // Reduce if drifts left
 int speedB = 250; // Reduce if drifts right
 
 void setup() {
+  // Set pin dir
   pinMode(IN1, OUTPUT);
   pinMode(IN2, OUTPUT);
   pinMode(IN3, OUTPUT);
