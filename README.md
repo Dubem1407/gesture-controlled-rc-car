@@ -64,7 +64,7 @@ gesture-controlled-rc-car/
 ## Project Status
 - [x] Motor control (L298N)
 - [x] IMU integration (MPU6500)
-- [ ] Bluetooth communication (HC-05)
+- [x] Bluetooth communication (HC-05)
 - [ ] Gesture to direction mapping
 - [ ] Full system integration
 
