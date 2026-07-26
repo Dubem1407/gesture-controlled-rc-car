@@ -27,23 +27,66 @@ void loop() {
   analogWrite(ENA, speedA);
   analogWrite(ENB, speedB);
 
-  // Forward
-  digitalWrite(IN1, HIGH);
-  digitalWrite(IN2, LOW);
-  digitalWrite(IN3, HIGH);
-  digitalWrite(IN4, LOW);
-  delay(2000);
-  Serial.println("Forward");
-
-  // Brake
-  digitalWrite(IN1, HIGH);
-  digitalWrite(IN2, HIGH);
-  digitalWrite(IN3, HIGH);
-  digitalWrite(IN4, HIGH);
-  delay(500);
-
   // TODO:
   // Make state machine to show how instructions received translate to what motor commands
   // Motor commmands: Forward, Reverse, Parked, Left, and Right
-  // Create switch case block from state machine
+  // Create if-else block from state machine
+
+  // Check for data in BL module
+  if (BTSerial.available() > 0) {
+    // Print received instruction
+    String receivedInstr = BTSerial.readStringUntil('\n');
+    receivedInstr.trim(); 
+    Serial.print("Received string: ");
+    Serial.println(receivedInstr);
+
+    if (receivedInstr == "FORWARD") {
+      // Forward
+      digitalWrite(IN1, HIGH);
+      digitalWrite(IN2, LOW);
+      digitalWrite(IN3, HIGH);
+      digitalWrite(IN4, LOW);
+      delay(1000);
+      Serial.println("Forward");
+    }
+
+    else if (receivedInstr == "REVERSE") {
+      // Reverse
+      digitalWrite(IN1, LOW);
+      digitalWrite(IN2, HIGH);
+      digitalWrite(IN3, LOW);
+      digitalWrite(IN4, HIGH);
+      delay(1000);
+      Serial.println("Reverse");
+    }
+
+    else if (receivedInstr == "LEFT") {
+      // Left turn (Motor A Clkwise)
+      digitalWrite(IN1, HIGH);
+      digitalWrite(IN2, LOW);
+      digitalWrite(IN3, HIGH);
+      digitalWrite(IN4, HIGH);
+      delay(1000);
+      Serial.println("Left turn");
+    }
+
+    else if (receivedInstr == "RIGHT") {
+      // Right turn (Motor B Clkwise)
+      digitalWrite(IN1, HIGH);
+      digitalWrite(IN2, HIGH);
+      digitalWrite(IN3, HIGH);
+      digitalWrite(IN4, LOW);
+      delay(1000);
+      Serial.println("Right turn");
+    }
+
+  } else{
+      // Parked
+      digitalWrite(IN1, HIGH);
+      digitalWrite(IN2, HIGH);
+      digitalWrite(IN3, HIGH);
+      digitalWrite(IN4, LOW);
+      delay(1000);
+      Serial.println("Parked");
+    }
 }

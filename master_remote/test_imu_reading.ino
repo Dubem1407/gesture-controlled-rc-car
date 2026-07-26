@@ -43,5 +43,5 @@ void loop() {
   // Caliberate/test tilting angles to see what is considered up, down, right or left
   // Caliberate further to determine the margin of tolerance for the different directions
   // Make state machine to link angle readings to directional instructions. 
-  // Translate state machine to switch case block
+  // Translate state machine to if-else block
 }
