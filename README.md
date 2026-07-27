@@ -38,7 +38,8 @@ L298N H-bridge motor driver.
 ```
 gesture-controlled-rc-car/
 ├── docs/
-│   └── wiring_diagram.png
+│   └── car_slave_wiring_diagram.png
+│   └── remote_master_wiring_diagram.png
 ├── master_remote/
 │   └── remote.ino         # Gesture reading and BT transmission
 ├── slave_car/
@@ -65,7 +66,7 @@ gesture-controlled-rc-car/
 - [x] Motor control (L298N)
 - [x] IMU integration (MPU6500)
 - [x] Bluetooth communication (HC-05)
-- [ ] Gesture to direction mapping
+- [x] Gesture to direction mapping
 - [ ] Full system integration
 
 ## Author
