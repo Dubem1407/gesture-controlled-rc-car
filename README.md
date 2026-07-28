@@ -67,7 +67,7 @@ gesture-controlled-rc-car/
 - [x] IMU integration (MPU6500)
 - [x] Bluetooth communication (HC-05)
 - [x] Gesture to direction mapping
-- [ ] Full system integration / Testing
+- [x] Full system integration / Testing
 
 ## Author
 Chidubem Emeka-Nwuba  
