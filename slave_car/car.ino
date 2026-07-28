@@ -32,8 +32,6 @@ void setup() {
 
 void loop() {
 
-  // Serial.println("Loop Start"); 
-
   // Set motor speeds
   analogWrite(ENA, speedA);
   analogWrite(ENB, speedB);
@@ -53,7 +51,6 @@ void loop() {
       digitalWrite(IN3, HIGH);
       digitalWrite(IN4, LOW);
       delay(1000);
-      // Serial.println("Forward");
     }
 
     else if (receivedInstr == "REVERSE") {
@@ -63,7 +60,6 @@ void loop() {
       digitalWrite(IN3, LOW);
       digitalWrite(IN4, HIGH);
       delay(1000);
-      // Serial.println("Reverse");
     }
 
     else if (receivedInstr == "LEFT") {
@@ -73,7 +69,6 @@ void loop() {
       digitalWrite(IN3, HIGH);
       digitalWrite(IN4, HIGH);
       delay(1000);
-      // Serial.println("Left turn");
     }
 
     else if (receivedInstr == "RIGHT") {
@@ -83,7 +78,6 @@ void loop() {
       digitalWrite(IN3, HIGH);
       digitalWrite(IN4, LOW);
       delay(1000);
-      // Serial.println("Right turn");
     }
   } else{
       // Parked

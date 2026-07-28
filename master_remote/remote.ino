@@ -4,6 +4,7 @@
 
 // RX = Pin 2, TX = Pin 3
 SoftwareSerial BTSerial(2, 3);
+
 // Instruction to send over BL module
 String instr;
 
@@ -75,13 +76,6 @@ void loop() {
   // Print results
   if (currentTime - prevPrintTime >= PRINT_INTERVAL) {
     prevPrintTime = currentTime; // Reset timer
-
-    // print pitch and roll results
-    Serial.print("Pitch: ");
-    Serial.print(pitch);
-    Serial.print("  |  Roll: ");
-    Serial.print(roll);
-    Serial.print("  --> State: ");
 
     // apply thresholds and print corresponding state 
     if (pitch > 20.0) {
