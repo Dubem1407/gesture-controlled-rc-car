@@ -9,6 +9,8 @@ in real time.
 
 ![Gesture Controlled RC Car Demo](docs/demo_RC_car.gif)
 
+[Watch the Full Demo](https://github.com/Dubem1407/gesture-controlled-rc-car/releases/tag/v1.0.0)
+
 ## Hardware
 
 ### Master Remote (Transmitter)
