@@ -28,18 +28,32 @@ receives these commands and drives the motors accordingly through the
 L298N H-bridge motor driver.
 
 ## Wiring Diagram
-- Master Remote
---
-- Slave Car
---
 
+### Master Remote
+
+The master remote uses an Arduino Nano*, MPU6500 IMU, and HC-05
+Bluetooth module to detect gestures and transmit movement commands.
+
+*(Arduino UNO used in diagram due to technical limitations)
+
+![Master Remote Wiring Diagram](docs/remote_master_wiring_diagram.png)
+
+### Slave Car
+
+The slave unit uses an Arduino UNO, HC-05 Bluetooth module, L298N
+motor driver, and two DC motors to receive commands and control
+the vehicle.
+
+![Slave Car Wiring Diagram](docs/car_slave_wiring_diagram.png)
 
 ## Folder Structure
 ```
 gesture-controlled-rc-car/
 ├── docs/
-│   └── car_slave_wiring_diagram.png
-│   └── remote_master_wiring_diagram.png
+│   ├── car_slave_wiring_diagram.png
+│   ├── remote_master_wiring_diagram.png
+│   ├── demo_RC_car.gif
+│   └── demo_RC_car.mp4
 ├── master_remote/
 │   └── remote.ino         # Gesture reading and BT transmission
 ├── slave_car/

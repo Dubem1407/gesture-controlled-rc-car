@@ -11,3 +11,6 @@ Thumbs.db
 # IDE files
 .vscode/
 *.bak
+
+docs/demo_RC_car.gif
+docs/demo_RC_car.mp4
