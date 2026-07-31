@@ -14,7 +14,7 @@ in real time.
 ## Hardware
 
 <p align="center">
-  <img src="docs/robot_hardware.jpg" alt="Robot Hardware" width="650" height="450">
+  <img src="docs/robot_hardware.jpg" alt="Robot Hardware" width="500">  
 </p>
 
 ### Master Remote (Transmitter)
