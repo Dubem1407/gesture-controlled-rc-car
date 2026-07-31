@@ -9,7 +9,7 @@ in real time.
 
 ![Gesture Controlled RC Car Demo](docs/demo_RC_car.gif)
 
-[Watch the Full Demo](https://github.com/Dubem1407/gesture-controlled-rc-car/releases/tag/v1.0.0)
+[Watch the Full Demo](https://www.linkedin.com/posts/chidubem-emeka-nwuba_embeddedsystems-robotics-arduino-ugcPost-7489030619839242241-PH_9/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEQLa_YBCdZl7urk7p1PFmYvOg3KNvX-7X8)
 
 ## Hardware
 
