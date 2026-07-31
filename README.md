@@ -7,16 +7,14 @@ in real time.
 
 ## Demo
 
-<p align="center">
-  <img src="docs/demo_RC_car.gif" alt="Gesture Controlled RC Car Demo" width="600">
-</p>
+![Gesture Controlled RC Car Demo](docs/demo_RC_car.gif)
 
 [Watch the Full Demo](https://github.com/Dubem1407/gesture-controlled-rc-car/releases/tag/v1.0.0)
 
 ## Hardware
 
 <p align="center">
-  <img src="docs/robot_hardware.jpg" alt="Robot Hardware" width="650">
+  <img src="docs/robot_hardware.jpg" alt="Robot Hardware" width="650" height="450">
 </p>
 
 ### Master Remote (Transmitter)
