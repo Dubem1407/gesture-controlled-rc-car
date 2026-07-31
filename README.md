@@ -13,7 +13,7 @@ in real time.
 
 ## Hardware
 
-![Robot Hardware](docs/robot_hardware.png)
+![Robot Hardware](docs/robot_hardware.jpg)
 
 ### Master Remote (Transmitter)
 - Arduino Nano
@@ -57,7 +57,7 @@ gesture-controlled-rc-car/
 ├── docs/
 │   ├── car_slave_wiring_diagram.png
 │   ├── remote_master_wiring_diagram.png
-│   ├── robot_hardware.png
+│   ├── robot_hardware.jpg
 │   └── demo_RC_car.gif
 ├── master_remote/
 │   └── remote.ino         # Gesture reading and BT transmission
