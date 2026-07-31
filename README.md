@@ -6,7 +6,8 @@ backward, left, or right drives the car in the corresponding direction
 in real time.
 
 ## Demo
---
+
+![Gesture Controlled RC Car Demo](docs/demo_RC_car.gif)
 
 ## Hardware
 
@@ -52,8 +53,7 @@ gesture-controlled-rc-car/
 ├── docs/
 │   ├── car_slave_wiring_diagram.png
 │   ├── remote_master_wiring_diagram.png
-│   ├── demo_RC_car.gif
-│   └── demo_RC_car.mp4
+│   └── demo_RC_car.gif
 ├── master_remote/
 │   └── remote.ino         # Gesture reading and BT transmission
 ├── slave_car/
