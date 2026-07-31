@@ -7,13 +7,17 @@ in real time.
 
 ## Demo
 
-![Gesture Controlled RC Car Demo](docs/demo_RC_car.gif)
+<p align="center">
+  <img src="docs/demo_RC_car.gif" alt="Gesture Controlled RC Car Demo" width="600">
+</p>
 
 [Watch the Full Demo](https://github.com/Dubem1407/gesture-controlled-rc-car/releases/tag/v1.0.0)
 
 ## Hardware
 
-![Robot Hardware](docs/robot_hardware.jpg)
+<p align="center">
+  <img src="docs/robot_hardware.jpg" alt="Robot Hardware" width="650">
+</p>
 
 ### Master Remote (Transmitter)
 - Arduino Nano
@@ -41,7 +45,9 @@ Bluetooth module to detect gestures and transmit movement commands.
 
 *(Arduino UNO used in diagram due to technical limitations)
 
-![Master Remote Wiring Diagram](docs/remote_master_wiring_diagram.png)
+<p align="center">
+  <img src="docs/remote_master_wiring_diagram.png" alt="Master Remote Wiring Diagram" width="650">
+</p>
 
 ### Slave Car
 
@@ -49,7 +55,9 @@ The slave unit uses an Arduino UNO, HC-05 Bluetooth module, L298N
 motor driver, and two DC motors to receive commands and control
 the vehicle.
 
-![Slave Car Wiring Diagram](docs/car_slave_wiring_diagram.png)
+<p align="center">
+  <img src="docs/car_slave_wiring_diagram.png" alt="Slave Car Wiring Diagram" width="650">
+</p>
 
 ## Folder Structure
 ```
